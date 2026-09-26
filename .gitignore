@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.local
+dist/
+build/
+*.log
+.DS_Store
+~$spital Management System - Project Report.docx
+Hospital Management System - Project Report.docx
+synopsis.pdf

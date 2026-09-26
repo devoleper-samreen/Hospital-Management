@@ -36,7 +36,7 @@ export default function DoctorDashboard() {
     <div>
       <div className="page-header">
         <div>
-          <h2>Welcome, Dr. {user?.name?.split(' ')[0]} 👋</h2>
+          <h2>Welcome, Dr. {user?.name?.replace(/^dr\.?\s+/i, '').split(' ')[0]} 👋</h2>
           <p>
             <span className="role-pill" style={{ marginTop: 0 }}>
               {data.doctor.specialization}
